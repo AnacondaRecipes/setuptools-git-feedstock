@@ -14,7 +14,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  noarch: python
+  noarch: {{ noarch_python }}
   preserve_egg_dir: True
 
   number: 1
